@@ -12,14 +12,11 @@
 
 /* Navbar */
 .navbar {
-  position: absolute;
-  top: 0;
   width: 100%;
   padding: 24px 80px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  z-index: 10;
   background-color:#ffffff;
 }
 
@@ -57,7 +54,8 @@
 
 /* Hero Section */
 section {
-  min-height: 100vh;
+  
+  height: 700px;
   background: 
     /* linear-gradient(rgba(8, 25, 45, 0.75), rgba(8, 25, 45, 0.75)), */
     url("./assets/hero-bg.png") center / cover no-repeat;
@@ -65,6 +63,11 @@ section {
   align-items: center;
   justify-content: center;
   padding: 40px 20px;
+}
+
+.hero-title .colored-text{
+    color: #30b868;
+
 }
 
 .hero-section-container {
@@ -80,7 +83,7 @@ section {
 
 .button1 {
   background: #ffffff;
-  color: #2b7a4b;
+  color: #30b868;
   border: none;
   padding: 8px 18px;
   border-radius: 20px;
@@ -91,7 +94,7 @@ section {
 /* Title */
 .hero-title h1 {
   font-family: "Inter", sans-serif;
-  font-size: 52px;
+  font-size: 60px;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 20px;
@@ -120,7 +123,7 @@ section {
 
 .button2 {
   background: #2ecc71;
-  color: #0b1f33;
+  color: white;
   border: none;
   padding: 14px 24px;
   border-radius: 6px;
@@ -128,6 +131,7 @@ section {
   font-weight: 600;
   cursor: pointer;
 }
+
 
 .button2:hover {
   background: #27ae60;
@@ -147,21 +151,4 @@ section {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .navbar {
-    padding: 20px 24px;
-  }
 
-  .menu {
-    display: none;
-  }
-
-  .hero-title h1 {
-    font-size: 38px;
-  }
-
-  .hero-paragraph p {
-    font-size: 16px;
-  }
-}
