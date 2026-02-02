@@ -158,6 +158,7 @@ section {
   padding: 100px 60px;
   text-align: center;
   display: block;
+  height: 548px;
 }
 
 .card-title h1{
@@ -222,6 +223,61 @@ section {
   line-height: 1.5;
 }
 
+/* Brain light section */
+.brain-light{
+  height: 840px;
+  background: none;
+  
+}
+.brain-light-container{
+  padding: 120px;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+.brain-light-texts h4{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight:500;
+  color: #30B868;
+  padding-bottom: 16px;
+
+}
+.brain-light-texts h1{
+  padding-bottom: 16px ;
+  font-size: 48px;
+  color: #001931;
+  line-height: normal;
+}
+
+.brain-light-texts p{
+  font-size: 16px;
+  color: #627382;
+  max-width: 500px;
+  
+}
+
+
+.icon-list {
+  list-style: none;
+  padding-top: 40px ;
+  margin: 0;
+}
+
+.icon-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  margin-top: 3px;
+}
 
 
 
